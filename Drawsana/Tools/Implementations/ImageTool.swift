@@ -6,14 +6,14 @@
 //  Copyright © 2020 Asana. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 public class ImageTool: DrawingToolForShapeWithOnePoint {
 
   override public var name: String {
     "ImageTool"
   }
-  override public var drawingSize: CGSize {
+  override open var drawingSize: CGSize {
     imageDrawingSize
   }
 

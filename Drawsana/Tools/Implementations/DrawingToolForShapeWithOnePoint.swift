@@ -6,7 +6,7 @@
 //  Copyright © 2020 Asana. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 open class DrawingToolForShapeWithOnePoint: DrawingTool {
   public typealias ShapeType = Shape & ShapeWithTwoPoints

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Asana. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public class ImageShape: ShapeWithTwoPoints, ShapeSelectable {
   public static let type = "ImageShape"
