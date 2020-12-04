@@ -56,6 +56,15 @@
 		DF8C5A1C227C0CC0008C58AE /* DrawingToolForShapeWithThreePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C5A1B227C0CC0008C58AE /* DrawingToolForShapeWithThreePoints.swift */; };
 		DF8C5A1E227C0CCA008C58AE /* AngleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C5A1D227C0CCA008C58AE /* AngleShape.swift */; };
 		DF8C5A20227C18B0008C58AE /* AngleTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C5A1F227C18B0008C58AE /* AngleTool.swift */; };
+		E31188B5257A41D200276BC9 /* DrawingToolForShapeWithOnePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188B4257A41D200276BC9 /* DrawingToolForShapeWithOnePoint.swift */; };
+		E31188B9257A425700276BC9 /* DashedLineTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188B8257A425700276BC9 /* DashedLineTool.swift */; };
+		E31188BF257A426D00276BC9 /* DashedArrowTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188BE257A426D00276BC9 /* DashedArrowTool.swift */; };
+		E31188C3257A42C100276BC9 /* CurvedTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188C2257A42C100276BC9 /* CurvedTool.swift */; };
+		E31188C7257A42D500276BC9 /* CurvedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188C6257A42D500276BC9 /* CurvedShape.swift */; };
+		E31188CB257A431C00276BC9 /* ImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188CA257A431C00276BC9 /* ImageTool.swift */; };
+		E31188CF257A433600276BC9 /* ImageShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188CE257A433600276BC9 /* ImageShape.swift */; };
+		E31188D3257A43A400276BC9 /* WaveTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188D2257A43A400276BC9 /* WaveTool.swift */; };
+		E31188D7257A43B600276BC9 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31188D6257A43B600276BC9 /* WaveShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +153,15 @@
 		DF8C5A1B227C0CC0008C58AE /* DrawingToolForShapeWithThreePoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingToolForShapeWithThreePoints.swift; sourceTree = "<group>"; };
 		DF8C5A1D227C0CCA008C58AE /* AngleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleShape.swift; sourceTree = "<group>"; };
 		DF8C5A1F227C18B0008C58AE /* AngleTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleTool.swift; sourceTree = "<group>"; };
+		E31188B4257A41D200276BC9 /* DrawingToolForShapeWithOnePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingToolForShapeWithOnePoint.swift; sourceTree = "<group>"; };
+		E31188B8257A425700276BC9 /* DashedLineTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedLineTool.swift; sourceTree = "<group>"; };
+		E31188BE257A426D00276BC9 /* DashedArrowTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedArrowTool.swift; sourceTree = "<group>"; };
+		E31188C2257A42C100276BC9 /* CurvedTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTool.swift; sourceTree = "<group>"; };
+		E31188C6257A42D500276BC9 /* CurvedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedShape.swift; sourceTree = "<group>"; };
+		E31188CA257A431C00276BC9 /* ImageTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTool.swift; sourceTree = "<group>"; };
+		E31188CE257A433600276BC9 /* ImageShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageShape.swift; sourceTree = "<group>"; };
+		E31188D2257A43A400276BC9 /* WaveTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTool.swift; sourceTree = "<group>"; };
+		E31188D6257A43B600276BC9 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +234,9 @@
 				376229792113AB7F0034D0E3 /* PenShape.swift */,
 				376229752113AB6E0034D0E3 /* RectShape.swift */,
 				37362D5B21151684003E5ACA /* TextShape.swift */,
+				E31188C6257A42D500276BC9 /* CurvedShape.swift */,
+				E31188CE257A433600276BC9 /* ImageShape.swift */,
+				E31188D6257A43B600276BC9 /* WaveShape.swift */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -233,14 +254,20 @@
 		3762297E2113AC7D0034D0E3 /* Implementations */ = {
 			isa = PBXGroup;
 			children = (
+				DF8C5A1F227C18B0008C58AE /* AngleTool.swift */,
+				37885E29210A9C69003A918F /* ArrowTool_EllipseTool_LineTool_RectTool.swift */,
+				E31188B4257A41D200276BC9 /* DrawingToolForShapeWithOnePoint.swift */,
 				DF8C5A1B227C0CC0008C58AE /* DrawingToolForShapeWithThreePoints.swift */,
 				3706B15D211CF29500D41622 /* DrawingToolForShapeWithTwoPoints.swift */,
-				37885E29210A9C69003A918F /* ArrowTool_EllipseTool_LineTool_RectTool.swift */,
-				D024467721DA1ED000E431C8 /* StarTool_PentagonTool_TriangleTool.swift */,
 				37885E2B210A9C95003A918F /* PenTool_EraserTool.swift */,
 				37885E2D210A9CDA003A918F /* SelectionTool.swift */,
-				DF8C5A1F227C18B0008C58AE /* AngleTool.swift */,
+				D024467721DA1ED000E431C8 /* StarTool_PentagonTool_TriangleTool.swift */,
 				37362D6D211B7305003E5ACA /* Text tool */,
+				E31188B8257A425700276BC9 /* DashedLineTool.swift */,
+				E31188BE257A426D00276BC9 /* DashedArrowTool.swift */,
+				E31188C2257A42C100276BC9 /* CurvedTool.swift */,
+				E31188CA257A431C00276BC9 /* ImageTool.swift */,
+				E31188D2257A43A400276BC9 /* WaveTool.swift */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -483,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31188B9257A425700276BC9 /* DashedLineTool.swift in Sources */,
 				37362D5E2118D8A3003E5ACA /* ToolSettings.swift in Sources */,
 				D0E97E8521D0DD90007722D7 /* NgonShape.swift in Sources */,
 				DF8C5A20227C18B0008C58AE /* AngleTool.swift in Sources */,
@@ -496,6 +524,7 @@
 				376229812113AD570034D0E3 /* ToolOperationContext.swift in Sources */,
 				3762298B2113D7910034D0E3 /* TextTool.swift in Sources */,
 				D0F3B43D21D34F4000701BB4 /* CGFloat+DrawsanaExtensions.swift in Sources */,
+				E31188D7257A43B600276BC9 /* WaveShape.swift in Sources */,
 				376229742113AAF50034D0E3 /* ShapeTransform.swift in Sources */,
 				37885E2A210A9C69003A918F /* ArrowTool_EllipseTool_LineTool_RectTool.swift in Sources */,
 				3706B15C211BA07F00D41622 /* KeyedDecodingContainer+DrawsanaExtensions.swift in Sources */,
@@ -503,20 +532,27 @@
 				37885E2E210A9CDA003A918F /* SelectionTool.swift in Sources */,
 				37362D622118EE98003E5ACA /* DrawingOperations.swift in Sources */,
 				D0E97E8321D0D3BA007722D7 /* StarShape.swift in Sources */,
+				E31188D3257A43A400276BC9 /* WaveTool.swift in Sources */,
 				DF8C5A1E227C0CCA008C58AE /* AngleShape.swift in Sources */,
 				37362D6A211A01A1003E5ACA /* UIColor+DrawsanaExtensions.swift in Sources */,
+				E31188B5257A41D200276BC9 /* DrawingToolForShapeWithOnePoint.swift in Sources */,
 				376229782113AB770034D0E3 /* EllipseShape.swift in Sources */,
 				376229762113AB6E0034D0E3 /* RectShape.swift in Sources */,
 				37362D6F211B7314003E5ACA /* DragHandler.swift in Sources */,
+				E31188CF257A433600276BC9 /* ImageShape.swift in Sources */,
 				37EB4EF4210649FC00E10461 /* DrawsanaView.swift in Sources */,
+				E31188BF257A426D00276BC9 /* DashedArrowTool.swift in Sources */,
 				37362D602118E46F003E5ACA /* DrawingOperationStack.swift in Sources */,
+				E31188C3257A42C100276BC9 /* CurvedTool.swift in Sources */,
 				3777F2FF21068A78009A9AC5 /* DrawingTool.swift in Sources */,
 				3706B15E211CF29500D41622 /* DrawingToolForShapeWithTwoPoints.swift in Sources */,
 				3777F2FD21068A5C009A9AC5 /* Shape.swift in Sources */,
 				37885E2C210A9C95003A918F /* PenTool_EraserTool.swift in Sources */,
 				37362D5C21151684003E5ACA /* TextShape.swift in Sources */,
+				E31188CB257A431C00276BC9 /* ImageTool.swift in Sources */,
 				371BE7D02123643100861596 /* ImmediatePanGestureRecognizer.swift in Sources */,
 				376229832113AD6E0034D0E3 /* Drawing.swift in Sources */,
+				E31188C7257A42D500276BC9 /* CurvedShape.swift in Sources */,
 				37362D71211B7386003E5ACA /* TextShapeEditingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

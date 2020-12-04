@@ -77,6 +77,11 @@ class ViewController: UIViewController {
 
   lazy var tools: [DrawingTool] = { return [
     PenTool(),
+    ImageTool(withImageName: "icon_delete", drawingSize: CGSize(width: 40, height: 40)),
+    DashedLineTool(),
+    DashedArrowTool(),
+    CurvedTool(),
+    WaveTool(),
     textTool,
     selectionTool,
     EllipseTool(),
@@ -87,10 +92,11 @@ class ViewController: UIViewController {
     StarTool(),
     TriangleTool(),
     PentagonTool(),
-    AngleTool(),
+    AngleTool()
   ] }()
 
   let strokeWidths: [CGFloat] = [
+    2,
     5,
     10,
     20,
