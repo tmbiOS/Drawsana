@@ -16,4 +16,11 @@ public struct ToolOperationContext {
   public let operationStack: DrawingOperationStack
   public let userSettings: UserSettings
   public let toolSettings: ToolSettings
+
+  public init(drawing: Drawing, operationStack: DrawingOperationStack, userSettings: UserSettings, toolSettings: ToolSettings) {
+    self.drawing = drawing
+    self.operationStack = operationStack
+    self.userSettings = userSettings
+    self.toolSettings = toolSettings
+  }
 }
